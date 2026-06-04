@@ -20,62 +20,52 @@ sql-practice/
 
 ## Progress
 
-### Day 1: Descriptive Statistics Foundations
+## Day 1: Descriptive Statistics Foundations
 
-Topics:
+### Topics:
 - Mean
 - Median
 - Mode
 - Data Types
 - Iris Dataset Exploration
 
-Practical Work:
+### Practical Work:
 - Loaded Iris dataset using scikit-learn
 - Calculated mean, median, and mode
 - Used describe() for summary statistics
 - Created histogram visualizations
 - Completed statistics exercises in Jupyter Notebook
 
-Resources:
+### Resources:
 - Statistics with Python (University of Michigan)
 - StatQuest Statistics Fundamentals# Statistics & SQL for AI
 
-Month 4 of my AI/ML Engineering Roadmap.
+## Day 2: Data Exploration, Variance and Standard Deviation
 
-## Objectives
+### Concepts Learned
 
-- Build strong statistics foundations
-- Learn SQL for data analysis and AI interviews
-- Understand metrics used in machine learning
-- Develop business data intuition
+* CSV Data Handling with Pandas
+* DataFrames
+* Data Exploration
+* loc[] and iloc[]
+* Mean
+* Variance
+* Standard Deviation
 
-## Repository Structure
+### Practical Work
 
-```text
-datasets/
-notebooks/
-notes/
-sql-practice/
-```
+* Loaded CSV dataset into a Pandas DataFrame
+* Explored dataset structure and summary statistics
+* Performed row and column selection using loc[] and iloc[]
+* Calculated variance and standard deviation
+* Conducted basic dataset experiments and analysis
 
-## Progress
+### Files Added
 
-### Day 1: Descriptive Statistics Foundations
+* datasets/student_performance.csv
+* notebooks/variance_standard_deviation_distribution.ipynb
+* notes/variance_standard_deviation_distribution.md
 
-Topics:
-- Mean
-- Median
-- Mode
-- Data Types
-- Iris Dataset Exploration
+### Outcome
 
-Practical Work:
-- Loaded Iris dataset using scikit-learn
-- Calculated mean, median, and mode
-- Used describe() for summary statistics
-- Created histogram visualizations
-- Completed statistics exercises in Jupyter Notebook
-
-Resources:
-- Statistics with Python (University of Michigan)
-- StatQuest Statistics Fundamentals
+Strengthened foundational data analysis skills using Pandas and developed intuition for data variability through variance and standard deviation.
