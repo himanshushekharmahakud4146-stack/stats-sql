@@ -187,3 +187,37 @@ B.Tech CSE | AI/ML Engineering Roadmap
 ### Outcome
 
 Strengthened foundational data analysis skills using Pandas and developed intuition for data variability through variance and standard deviation.
+
+### Day 3 - Probability & Bayes Theorem
+
+**Status:** ✅ Completed
+
+**Topics Covered:**
+
+* Probability Basics
+* Conditional Probability
+* Bayes Theorem
+* Bayes Intuition
+* Real-world Probability Examples
+
+**Activities Completed:**
+
+* Studied probability concepts using Khan Academy
+* Learned Bayes intuition from 3Blue1Brown
+* Implemented conditional probability calculations in Python
+* Built a simple Bayes spam classification example
+* Created a Jupyter notebook (`bayes.ipynb`)
+* Documented key concepts and learnings
+
+**Key Learnings:**
+
+* Probability measures the likelihood of events.
+* Conditional probability incorporates known information.
+* P(A|B) represents the probability of A given B.
+* Bayes Theorem updates beliefs using new evidence.
+* Bayes concepts are widely used in AI, Machine Learning, and spam filtering.
+
+**Files Added:**
+
+* `notebooks/bayes.ipynb`
+* `notes/probability_bayes_notes.md`
