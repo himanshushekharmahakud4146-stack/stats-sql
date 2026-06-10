@@ -188,7 +188,7 @@ B.Tech CSE | AI/ML Engineering Roadmap
 
 Strengthened foundational data analysis skills using Pandas and developed intuition for data variability through variance and standard deviation.
 
-### Day 3 - Probability & Bayes Theorem
+## Day 3 - Probability & Bayes Theorem
 
 **Status:** ✅ Completed
 
@@ -221,3 +221,36 @@ Strengthened foundational data analysis skills using Pandas and developed intuit
 
 * `notebooks/bayes.ipynb`
 * `notes/probability_bayes_notes.md`
+
+## Day 4: Sampling & Central Limit Theorem (CLT)
+
+### Topics Covered
+
+* Sampling and Sampling Distributions
+* Central Limit Theorem (CLT)
+* Random Sampling using NumPy
+* Statistical Simulation in Python
+* Histogram Visualization using Matplotlib
+
+### Practical Work
+
+* Created a CLT simulation notebook using NumPy and Matplotlib
+* Generated sampling distributions for sample sizes:
+
+  * n = 10
+  * n = 30
+  * n = 100
+* Observed how larger sample sizes produce distributions that become increasingly normal (bell-shaped)
+
+### Files Added
+
+* `notebooks/sampling_clt_simulation.ipynb`
+* `notes/sampling_clt_notes.md`
+
+### Key Learning
+
+The Central Limit Theorem states that as sample size increases, the distribution of sample means approaches a normal distribution, regardless of the original population distribution.
+
+### Outcome
+
+Successfully simulated the Central Limit Theorem and visualized sampling distributions using Python.
