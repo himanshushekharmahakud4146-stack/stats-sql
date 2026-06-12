@@ -254,3 +254,52 @@ The Central Limit Theorem states that as sample size increases, the distribution
 ### Outcome
 
 Successfully simulated the Central Limit Theorem and visualized sampling distributions using Python.
+
+## Day 5: Correlation and Covariance Analysis
+
+### Topics Covered
+
+* Covariance
+* Correlation Coefficient
+* Positive Correlation
+* Negative Correlation
+* Correlation Matrix
+* Data Relationship Analysis
+
+### Practical Implementation
+
+* Loaded and explored the Titanic dataset using Pandas
+* Computed correlation matrix for numerical features
+* Visualized feature relationships using a Seaborn heatmap
+* Identified patterns and relationships between variables
+* Documented business insights from correlation analysis
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/correlation_analysis.ipynb`
+
+#### Notes
+
+* `notes/correlation_covariance_notes.md`
+
+### Key Learnings
+
+* Covariance measures how variables move together
+* Correlation measures both the strength and direction of a relationship
+* Correlation values range from -1 to +1
+* Heatmaps provide a quick visual summary of feature relationships
+* Correlation analysis is useful for feature selection and exploratory data analysis
+
+### Business Insights
+
+1. Passenger class shows a relationship with ticket fare.
+2. Fare exhibits a meaningful relationship with survival outcomes.
+3. Certain numerical features display stronger associations than others.
+4. Correlation helps identify potentially useful predictive features.
+5. Data visualization improves interpretation of statistical relationships.
+
+### Outcome
+
+Successfully performed correlation analysis, generated a correlation heatmap, and interpreted relationships between variables using Python, Pandas, and Seaborn.
