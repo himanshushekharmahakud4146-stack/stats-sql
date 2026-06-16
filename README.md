@@ -406,3 +406,38 @@ Successfully reviewed, cleaned, documented, and organized all Week 1 statistics 
 ### Outcome
 
 Successfully completed Week 1 review and repository audit. The project is organized, documented, and ready for Week 2 development.
+
+## Day 8: Machine Learning Metrics
+
+### Topics Covered
+
+* Confusion Matrix
+* True Positive (TP)
+* False Positive (FP)
+* True Negative (TN)
+* False Negative (FN)
+* Accuracy
+* Precision
+* Recall
+
+### Practical Implementation
+
+* Trained Logistic Regression model on the Titanic dataset
+* Generated predictions on test data
+* Computed confusion matrix
+* Calculated Accuracy, Precision, and Recall manually
+* Built a metrics comparison table
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/ml_metrics_logistic_regression.ipynb`
+
+#### Notes
+
+* `notes/ml_metrics_notes.md`
+
+### Outcome
+
+Built and evaluated a classification model and learned how machine learning metrics are calculated and interpreted.
