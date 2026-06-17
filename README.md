@@ -441,3 +441,41 @@ Successfully completed Week 1 review and repository audit. The project is organi
 ### Outcome
 
 Built and evaluated a classification model and learned how machine learning metrics are calculated and interpreted.
+
+## Day 9: F1 Score, ROC Curve and AUC
+
+### Topics Covered
+
+* F1 Score
+* ROC Curve
+* AUC Score
+* Model Evaluation
+
+### Practical Implementation
+
+* Reused Titanic Logistic Regression model
+* Calculated F1 Score
+* Calculated ROC-AUC Score
+* Generated ROC Curve using sklearn.metrics
+* Visualized model performance with Matplotlib
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/model_evaluation_roc_auc.ipynb`
+
+#### Notes
+
+* `notes/model_evaluation_metrics.md`
+
+### Key Learnings
+
+* F1 Score balances Precision and Recall.
+* ROC Curve visualizes classifier performance.
+* AUC provides a single measure of model quality.
+* Model evaluation requires more than Accuracy alone.
+
+### Outcome
+
+Successfully evaluated a classification model using F1 Score, ROC Curve, and AUC Score and visualized performance through ROC analysis.
