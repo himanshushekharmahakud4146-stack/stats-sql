@@ -2,7 +2,7 @@
 
 ## Confusion Matrix
 
-A confusion matrix summarizes the performance of a classification model.
+A confusion matrix summarizes the performance of a classification model by comparing actual values with predicted values.
 
 ### True Positive (TP)
 
@@ -20,19 +20,48 @@ Actual negative but predicted positive.
 
 Actual positive but predicted negative.
 
+---
+
 ## Accuracy
 
-Measures overall correctness of predictions.
+Measures the overall correctness of predictions.
+
+Formula:
+
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+---
 
 ## Precision
 
 Measures how many predicted positives were actually positive.
 
+Formula:
+
+Precision = TP / (TP + FP)
+
+---
+
 ## Recall
 
 Measures how many actual positives were correctly identified.
 
+Formula:
+
+Recall = TP / (TP + FN)
+
+---
+
+## F1 Score
+
+Measures the balance between Precision and Recall.
+
+Formula:
+
+F1 Score = 2 × (Precision × Recall) / (Precision + Recall)
+
+---
+
 ## Key Takeaway
 
-Accuracy, Precision, and Recall are fundamental metrics used to evaluate machine learning classification models.
-
+Accuracy, Precision, Recall, and F1 Score are fundamental metrics used to evaluate machine learning classification models.

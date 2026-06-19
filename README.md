@@ -479,3 +479,60 @@ Built and evaluated a classification model and learned how machine learning metr
 ### Outcome
 
 Successfully evaluated a classification model using F1 Score, ROC Curve, and AUC Score and visualized performance through ROC analysis.
+
+## Day 10: Confusion Matrix Analysis & Model Comparison
+
+### Topics Covered
+
+* Confusion Matrix
+* True Positive (TP)
+* True Negative (TN)
+* False Positive (FP)
+* False Negative (FN)
+* Accuracy
+* Precision
+* Recall
+* Classification Model Evaluation
+
+### Practical Implementation
+
+* Developed a reusable `plot_confusion_matrix()` visualization function
+* Trained and evaluated a Logistic Regression model
+* Trained and evaluated a Decision Tree Classifier
+* Trained and evaluated a K-Nearest Neighbors (KNN) Classifier
+* Generated confusion matrix visualizations for all models
+* Performed comparative analysis of classification performance
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/confusion_matrix_comparison.ipynb`
+
+#### Notes
+
+* `notes/confusion_matrix_deep_dive.md`
+
+### Key Learnings
+
+* Confusion matrices provide detailed insight into model predictions and errors.
+* TP, TN, FP, and FN form the foundation of classification evaluation metrics.
+* Precision is important when false positives are costly.
+* Recall is important when false negatives are costly.
+* Different machine learning models produce different prediction patterns on the same dataset.
+* Model evaluation helps identify strengths and weaknesses beyond overall accuracy.
+
+### Skills Practiced
+
+* Data Preprocessing
+* Classification Modeling
+* Logistic Regression
+* Decision Tree Classification
+* K-Nearest Neighbors (KNN)
+* Confusion Matrix Analysis
+* Model Comparison
+* Data Visualization with Seaborn and Matplotlib
+
+### Outcome
+
+Successfully built a reusable confusion matrix visualization workflow and compared multiple classification models on the Titanic dataset to understand prediction quality, error distribution, and evaluation metrics.
