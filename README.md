@@ -536,3 +536,46 @@ Successfully evaluated a classification model using F1 Score, ROC Curve, and AUC
 ### Outcome
 
 Successfully built a reusable confusion matrix visualization workflow and compared multiple classification models on the Titanic dataset to understand prediction quality, error distribution, and evaluation metrics.
+
+## Day 11: Handling Imbalanced Datasets
+
+### Topics Covered
+
+* Imbalanced Data
+* Oversampling
+* Undersampling
+* SMOTE
+* Ensemble Methods
+* Cost-Sensitive Learning
+* Accuracy vs F1 Score
+
+### Practical Implementation
+
+* Explored class imbalance in fraud detection data
+* Investigated the limitations of Accuracy as an evaluation metric
+* Studied Oversampling and Undersampling techniques
+* Learned how SMOTE generates synthetic minority samples
+* Examined Ensemble Methods for handling imbalance
+* Applied Cost-Sensitive Learning using class weights
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/imbalanced_data_techniques.ipynb`
+
+#### Notes
+
+* `notes/imbalanced_data_notes.md`
+
+### Key Learnings
+
+* Imbalanced datasets can produce misleading Accuracy scores.
+* F1 Score is often a more reliable metric for minority class evaluation.
+* SMOTE helps create synthetic minority samples to improve learning.
+* Ensemble methods can improve classification performance on imbalanced data.
+* Cost-sensitive learning helps reduce costly prediction errors.
+
+### Outcome
+
+Developed an understanding of major techniques used to address imbalanced datasets and learned why model evaluation should go beyond Accuracy when dealing with real-world classification problems.
