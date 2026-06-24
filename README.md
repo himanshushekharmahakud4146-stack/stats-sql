@@ -190,7 +190,7 @@ Strengthened foundational data analysis skills using Pandas and developed intuit
 
 ## Day 3 - Probability & Bayes Theorem
 
-**Status:** ✅ Completed
+**Status:**  Completed
 
 **Topics Covered:**
 
@@ -356,7 +356,7 @@ Successfully performed correlation analysis, generated a correlation heatmap, an
 
 ### Milestone Achieved
 
-✅ Week 1 Statistics Gate Completed
+- Week 1 Statistics Gate Completed
 
 ### Deliverables
 
@@ -395,13 +395,13 @@ Successfully reviewed, cleaned, documented, and organized all Week 1 statistics 
 
 ### Week 1 Status
 
-✅ Sampling and Central Limit Theorem
+- Sampling and Central Limit Theorem
 
-✅ Correlation and Covariance
+- Correlation and Covariance
 
-✅ Statistical Documentation
+- Statistical Documentation
 
-✅ GitHub Portfolio Review
+- GitHub Portfolio Review
 
 ### Outcome
 
@@ -647,3 +647,44 @@ Built a portfolio-ready notebook explaining machine learning metrics through rea
 ### Outcome
 
 Consolidated Week 2 machine learning evaluation concepts into a single review notebook and prepared portfolio artifacts for public sharing.
+## Day 14: PostgreSQL Environment Setup
+
+### Topics Covered
+
+* PostgreSQL Installation
+* Database Creation
+* SQL Basics
+* SQLAlchemy
+* psycopg2
+* Python Database Connectivity
+
+### Practical Implementation
+
+* Installed PostgreSQL using Homebrew
+* Started PostgreSQL service
+* Created `querylab` database
+* Executed first SQL query
+* Installed SQLAlchemy and psycopg2
+* Prepared Python to PostgreSQL connection workflow
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/querylab_setup.ipynb`
+
+#### Notes
+
+* `notes/querylab_setup.md`
+
+### Key Learnings
+
+* PostgreSQL is a relational database system.
+* SQL is used to interact with databases.
+* SQLAlchemy acts as a bridge between Python and PostgreSQL.
+* psycopg2 enables Python to communicate with PostgreSQL.
+* Database connectivity is essential for data engineering and data science workflows.
+
+### Outcome
+
+Successfully configured a local PostgreSQL environment and prepared Python for database interaction and SQL practice.
