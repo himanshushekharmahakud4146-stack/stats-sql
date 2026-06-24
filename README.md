@@ -579,3 +579,43 @@ Successfully built a reusable confusion matrix visualization workflow and compar
 ### Outcome
 
 Developed an understanding of major techniques used to address imbalanced datasets and learned why model evaluation should go beyond Accuracy when dealing with real-world classification problems.
+
+## Day 12: ML Metrics for Business
+
+### Topics Covered
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+* Business Interpretation of Metrics
+
+### Practical Implementation
+
+* Created a business-focused ML metrics explainer notebook
+* Connected evaluation metrics to BFSI use cases
+* Explained fraud detection and loan default prediction scenarios
+* Combined confusion matrix and ROC analysis into a single portfolio notebook
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/ml_metrics_for_business.ipynb`
+
+#### Notes
+
+* `notes/ml_metrics_business_notes.md`
+
+### Key Learnings
+
+* Metrics should be interpreted within a business context.
+* Different business problems require different evaluation metrics.
+* Fraud detection prioritizes Recall.
+* Loan risk assessment often prioritizes Precision.
+* Accuracy alone may not reflect model effectiveness.
+
+### Outcome
+
+Built a portfolio-ready notebook explaining machine learning metrics through real-world BFSI applications and business decision-making scenarios.
