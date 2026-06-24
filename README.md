@@ -619,3 +619,31 @@ Developed an understanding of major techniques used to address imbalanced datase
 ### Outcome
 
 Built a portfolio-ready notebook explaining machine learning metrics through real-world BFSI applications and business decision-making scenarios.
+
+## Day 13: Week 2 Review and Portfolio Polish
+
+### Topics Covered
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+* Imbalanced Data
+
+### Practical Implementation
+
+* Reviewed all Week 2 notebooks
+* Improved notebook documentation
+* Added recruiter-friendly explanations
+* Published learning summary on LinkedIn
+
+### Files Added
+ 
+#### Notes
+
+* `notes/week2_metrics_review.md`
+
+### Outcome
+
+Consolidated Week 2 machine learning evaluation concepts into a single review notebook and prepared portfolio artifacts for public sharing.
