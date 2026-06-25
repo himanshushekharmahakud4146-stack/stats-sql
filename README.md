@@ -688,3 +688,53 @@ Consolidated Week 2 machine learning evaluation concepts into a single review no
 ### Outcome
 
 Successfully configured a local PostgreSQL environment and prepared Python for database interaction and SQL practice.
+
+## Day 15: SQL Query Fundamentals
+
+### Topics Covered
+
+* SELECT
+* WHERE
+* ORDER BY
+* LIMIT
+
+### Practical Implementation
+
+* Created a sample sales table in PostgreSQL
+* Inserted customer revenue data
+* Retrieved records using SELECT
+* Filtered records using WHERE
+* Sorted records using ORDER BY
+* Limited results using LIMIT
+
+### Files Added
+
+#### Notebook
+
+* `notebooks/sql_query_fundamentals.ipynb`
+
+#### Notes
+
+* `notes/sql_query_fundamentals.md`
+
+#### SQL Scripts
+
+* `sql/customer_sales_queries.sql`
+
+### Key Learnings
+
+* SELECT retrieves data from a table.
+* WHERE filters rows based on conditions.
+* ORDER BY sorts query results.
+* LIMIT controls the number of returned rows.
+* SQL queries help transform raw data into useful business insights.
+
+### Example Business Questions
+
+* Which customers generated the highest revenue?
+* What are the top performing sales records?
+* How can data be filtered based on business rules?
+
+### Outcome
+
+Built foundational SQL querying skills using PostgreSQL and practiced retrieving, filtering, sorting, and limiting data through real-world sales examples.
