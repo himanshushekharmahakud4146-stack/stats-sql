@@ -738,3 +738,28 @@ Successfully configured a local PostgreSQL environment and prepared Python for d
 ### Outcome
 
 Built foundational SQL querying skills using PostgreSQL and practiced retrieving, filtering, sorting, and limiting data through real-world sales examples.
+
+## Day 16 — SQL: Aggregations, Filtering & Subqueries
+ 
+**Tool:** PostgreSQL (QueryLab)
+
+### What I built
+- Designed a `products` table with 9 columns including constraints, defaults, and type checks
+- Inserted 10 realistic product records across 5 categories
+- Practiced 39 SQL queries covering the full spectrum from basic SELECT to correlated subqueries
+
+### Concepts covered
+- WHERE filtering: `=`, `>`, `BETWEEN`, `IN`, `AND/OR/NOT`
+- Pattern matching with `LIKE` (`%`, `_` wildcards)
+- `ORDER BY`, `LIMIT`, column `AS` aliases
+- `GROUP BY` + `HAVING` for aggregated filtering
+- Aggregate functions: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `ROUND`
+- Scalar and correlated subqueries
+- `DISTINCT` + `upper()` string function
+
+### Files
+| File | Description |
+|------|-------------|
+| `sql-practice/product_queries.sql` | All 39 queries, section-wise |
+| `notes/sql_aggregation_notes.md` | Concept notes with examples |
+| `notebooks/sql_aggregation_analysis.ipynb` | Jupyter doc with observations |
