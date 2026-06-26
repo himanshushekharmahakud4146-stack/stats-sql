@@ -763,3 +763,41 @@ Built foundational SQL querying skills using PostgreSQL and practiced retrieving
 | `sql-practice/product_queries.sql` | All 39 queries, section-wise |
 | `notes/sql_aggregation_notes.md` | Concept notes with examples |
 | `notebooks/sql_aggregation_analysis.ipynb` | Jupyter doc with observations |
+
+## Day 17 – SQL String Functions & Pattern Matching
+
+### Objective
+
+Strengthened SQL querying skills by learning text manipulation, pattern matching, and data filtering techniques using PostgreSQL. Practiced these concepts on a custom `flipkart_db` database and documented the learning through notebooks, notes, and reusable SQL scripts.
+
+### Topics Covered
+
+* `DISTINCT`
+* `UPPER()`
+* `LOWER()`
+* `LENGTH()`
+* `LIKE`
+* Wildcards (`%`, `_`)
+* Column Aliases (`AS`)
+* `ORDER BY` with string functions
+
+### Files Added
+
+```text
+notebooks/sql_string_functions.ipynb
+notes/sql_string_functions.md
+sql/product_string_queries.sql
+```
+
+### Practice Highlights
+
+* Retrieved unique product categories
+* Converted text to uppercase and lowercase
+* Measured string length using `LENGTH()`
+* Performed pattern matching with `LIKE`
+* Used `%` and `_` wildcards for flexible searches
+* Improved query readability with column aliases
+
+### Learning Outcome
+
+Gained practical experience using SQL string functions for text processing and filtering. These techniques are widely used in data analysis, reporting, ETL pipelines, and machine learning data preprocessing.
