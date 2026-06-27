@@ -801,3 +801,37 @@ sql/product_string_queries.sql
 ### Learning Outcome
 
 Gained practical experience using SQL string functions for text processing and filtering. These techniques are widely used in data analysis, reporting, ETL pipelines, and machine learning data preprocessing.
+
+## Day 18
+
+### SQL String Functions & Table Modification
+
+#### Topics Covered
+
+- ALTER TABLE
+- ADD COLUMN
+- DROP COLUMN
+- RENAME COLUMN
+- ALTER COLUMN
+- CHECK Constraint
+- UPPER()
+- LOWER()
+- LENGTH()
+- SUBSTRING()
+- LEFT()
+- RIGHT()
+- CONCAT()
+- TRIM()
+- REPLACE()
+
+#### Files Added
+
+```
+notebooks/alter_table_string_functions.ipynb 
+notes/alter_table_string_functions.md
+sql/alter_string.sql
+```
+
+#### Outcome
+
+Practiced PostgreSQL schema modification and string manipulation techniques using a products dataset. Built reusable SQL queries for text processing and database maintenance.
