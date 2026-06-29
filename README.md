@@ -835,3 +835,33 @@ sql/alter_string.sql
 #### Outcome
 
 Practiced PostgreSQL schema modification and string manipulation techniques using a products dataset. Built reusable SQL queries for text processing and database maintenance.
+
+## Day 19
+
+### SQL Relationships, Joins & Business Queries
+
+#### Topics Covered
+
+- Primary Key
+- Foreign Key
+- Table Relationships
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- CASE WHEN
+- Revenue Calculation
+- Student Database
+- Product Database
+
+#### Files Added
+
+```
+notebooks/sql_relationships_analysis.ipynb
+notes/sql_relationships_notes.md
+sql/joins_relationship_queries.sql
+```
+
+#### Outcome
+
+Designed relational PostgreSQL databases and practiced SQL joins, aggregation, and conditional queries using business-oriented datasets. Developed reusable SQL scripts for data analysis and interview preparation.
