@@ -865,3 +865,29 @@ sql/joins_relationship_queries.sql
 #### Outcome
 
 Designed relational PostgreSQL databases and practiced SQL joins, aggregation, and conditional queries using business-oriented datasets. Developed reusable SQL scripts for data analysis and interview preparation.
+
+## Day 20
+
+### SQL Views & Introduction to Common Table Expressions (CTEs)
+
+#### Topics Covered
+
+- SQL Views
+- CREATE VIEW
+- Querying Views
+- Introduction to CTEs
+- WITH Clause
+- Reusable SQL Queries
+- Query Readability
+
+#### Files Added
+
+```
+notebooks/sql_views_cte_analysis.ipynb
+notes/sql_views_cte_notes.md
+sql/views_cte_queries.sql
+```
+
+#### Outcome
+
+Built reusable SQL Views for product analysis and learned the fundamentals of Common Table Expressions (CTEs). Improved SQL readability by organizing queries into reusable and maintainable structures.
