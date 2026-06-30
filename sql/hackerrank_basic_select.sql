@@ -1,0 +1,48 @@
+-- ===========================================
+-- HackerRank SQL Practice
+-- Basic Select
+-- ===========================================
+
+-- Problem 1
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE='USA'
+AND POPULATION>100000;
+
+-- Problem 2
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE='USA'
+AND POPULATION>120000;
+
+-- Problem 3
+SELECT *
+FROM CITY;
+
+-- Problem 4
+SELECT *
+FROM CITY
+WHERE ID=1661;
+
+-- Problem 5
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE='JPN';
+
+-- Problem 6
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE='JPN';
+
+-- Problem 7
+SELECT CITY,STATE
+FROM STATION;
+
+-- Problem 8
+SELECT DISTINCT CITY
+FROM STATION
+WHERE MOD(ID,2)=0;
+
+-- Problem 9
+SELECT COUNT(CITY)-COUNT(DISTINCT CITY)
+FROM STATION;

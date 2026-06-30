@@ -891,3 +891,31 @@ sql/views_cte_queries.sql
 #### Outcome
 
 Built reusable SQL Views for product analysis and learned the fundamentals of Common Table Expressions (CTEs). Improved SQL readability by organizing queries into reusable and maintainable structures.
+
+## Day 21
+
+### HackerRank SQL Practice - Basic Select
+
+#### Topics Covered
+
+- SELECT
+- WHERE
+- AND
+- DISTINCT
+- COUNT()
+- COUNT(DISTINCT)
+- MOD()
+- Filtering
+- Basic SQL Interview Questions
+
+#### Files Added
+
+```text
+notebooks/hackerrank_sql_practice.ipynb
+notes/hackerrank_sql_notes.md
+sql/hackerrank_basic_select.sql
+```
+
+#### Outcome
+
+Solved beginner SQL interview problems on HackerRank, strengthened SQL query writing skills, and documented solutions for future interview preparation.
