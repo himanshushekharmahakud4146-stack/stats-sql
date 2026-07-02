@@ -1,0 +1,120 @@
+-- ============================================
+-- HackerRank SQL Practice
+-- Day 22
+-- ============================================
+
+-- Weather Observation Station 6
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE 'A%'
+   OR CITY LIKE 'E%'
+   OR CITY LIKE 'I%'
+   OR CITY LIKE 'O%'
+   OR CITY LIKE 'U%';
+
+-- Weather Observation Station 7
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE '%A'
+   OR CITY LIKE '%E'
+   OR CITY LIKE '%I'
+   OR CITY LIKE '%O'
+   OR CITY LIKE '%U';
+
+-- Weather Observation Station 8
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE (CITY LIKE 'A%'
+    OR CITY LIKE 'E%'
+    OR CITY LIKE 'I%'
+    OR CITY LIKE 'O%'
+    OR CITY LIKE 'U%')
+AND (CITY LIKE '%A'
+    OR CITY LIKE '%E'
+    OR CITY LIKE '%I'
+    OR CITY LIKE '%O'
+    OR CITY LIKE '%U');
+
+-- Weather Observation Station 9
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE 'A%'
+  AND CITY NOT LIKE 'E%'
+  AND CITY NOT LIKE 'I%'
+  AND CITY NOT LIKE 'O%'
+  AND CITY NOT LIKE 'U%';
+
+-- Weather Observation Station 10
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY NOT LIKE '%A'
+  AND CITY NOT LIKE '%E'
+  AND CITY NOT LIKE '%I'
+  AND CITY NOT LIKE '%O'
+  AND CITY NOT LIKE '%U';
+
+-- Weather Observation Station 11
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE (CITY NOT LIKE 'A%'
+   AND CITY NOT LIKE 'E%'
+   AND CITY NOT LIKE 'I%'
+   AND CITY NOT LIKE 'O%'
+   AND CITY NOT LIKE 'U%')
+OR (CITY NOT LIKE '%A'
+   AND CITY NOT LIKE '%E'
+   AND CITY NOT LIKE '%I'
+   AND CITY NOT LIKE '%O'
+   AND CITY NOT LIKE '%U');
+
+-- Weather Observation Station 12
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE (CITY NOT LIKE 'A%'
+   AND CITY NOT LIKE 'E%'
+   AND CITY NOT LIKE 'I%'
+   AND CITY NOT LIKE 'O%'
+   AND CITY NOT LIKE 'U%')
+AND (CITY NOT LIKE '%A'
+   AND CITY NOT LIKE '%E'
+   AND CITY NOT LIKE '%I'
+   AND CITY NOT LIKE '%O'
+   AND CITY NOT LIKE '%U');
+
+-- Employee Names
+
+SELECT NAME
+FROM EMPLOYEE
+ORDER BY NAME;
+
+-- Employee Salaries
+
+SELECT NAME
+FROM EMPLOYEE
+WHERE SALARY > 2000
+  AND MONTHS < 10
+ORDER BY EMPLOYEE_ID;
+
+-- The PADS
+
+SELECT CONCAT(Name, '(', LEFT(Occupation, 1), ')')
+FROM OCCUPATIONS
+ORDER BY Name;
+
+SELECT CONCAT(
+    'There are a total of ',
+    COUNT(*),
+    ' ',
+    LOWER(Occupation),
+    's.'
+)
+FROM OCCUPATIONS
+GROUP BY Occupation
+ORDER BY COUNT(*), Occupation;

@@ -919,3 +919,31 @@ sql/hackerrank_basic_select.sql
 #### Outcome
 
 Solved beginner SQL interview problems on HackerRank, strengthened SQL query writing skills, and documented solutions for future interview preparation.
+
+## Day 22
+
+### SQL Interview Problem Solving (HackerRank)
+
+#### Topics Covered
+
+- Pattern Matching (LIKE / NOT LIKE)
+- DISTINCT
+- Logical Operators (AND / OR)
+- String Functions
+- Aggregate Functions
+- ORDER BY
+- Multi-column Sorting
+- SQL Output Formatting
+- HackerRank Basic & Advanced Select
+
+#### Files Added
+
+```text
+notebooks/sql_problem_solving_analysis.ipynb
+notes/sql_problem_solving_notes.md
+sql/hackerrank_advanced_select.sql
+```
+
+#### Outcome
+
+Solved multiple HackerRank SQL interview questions covering filtering, pattern matching, sorting, aggregation, and string manipulation. Improved the ability to translate English problem statements into correct SQL queries while following professional formatting and debugging techniques.
