@@ -27,7 +27,7 @@ The goal of this month is to build strong statistical intuition, understand mach
 datasets/
 notebooks/
 notes/
-sql-practice/
+sq/
 ```
 
 ---
@@ -920,6 +920,76 @@ sql/hackerrank_basic_select.sql
 
 Solved beginner SQL interview problems on HackerRank, strengthened SQL query writing skills, and documented solutions for future interview preparation.
 
+# Week 3 Milestone 
+
+## SQL Fundamentals & Interview Practice
+
+### Milestone Achieved
+-- Solved 20 HackerRank SQL problems
+
+---
+
+## Topics Covered
+
+- SELECT
+- WHERE
+- ORDER BY
+- LIMIT
+- DISTINCT
+- LIKE / NOT LIKE
+- AND / OR
+- COUNT()
+- COUNT(DISTINCT)
+- MOD()
+- RIGHT()
+- LEFT()
+- CONCAT()
+- LOWER()
+- GROUP BY
+- Basic String Functions
+- SQL Output Formatting
+- Basic & Advanced Select Problems
+
+---
+
+## Business Context
+
+The SQL queries practiced this week simulate real-world business scenarios such as:
+
+- Customer and product filtering
+- Employee record analysis
+- City and location analytics
+- Data cleaning using DISTINCT
+- Pattern matching for customer information
+- Business report generation
+- Text formatting for dashboards
+- Data summarization using aggregate functions
+
+---
+
+## Repository Artifacts
+
+- SQL Practice Scripts
+- Jupyter Analysis Notebooks
+- Concept Notes
+- HackerRank SQL Solutions
+- SQL README Documentation
+
+---
+
+## Week 3 Outcome
+
+- Built a strong SQL foundation.
+- Improved SQL interview problem-solving skills.
+- Learned to translate business requirements into SQL queries.
+- Developed clean and readable SQL coding practices.
+- Created a structured SQL portfolio on GitHub.
+
+---
+
+### Status 
+- Week 3 Gate Completed
+
 ## Day 22
 
 ### SQL Interview Problem Solving (HackerRank)
@@ -947,3 +1017,29 @@ sql/hackerrank_advanced_select.sql
 #### Outcome
 
 Solved multiple HackerRank SQL interview questions covering filtering, pattern matching, sorting, aggregation, and string manipulation. Improved the ability to translate English problem statements into correct SQL queries while following professional formatting and debugging techniques.
+
+## Day 23
+
+### SQL Window Functions
+
+#### Topics Covered
+
+- OVER()
+- PARTITION BY
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- Window Aggregates
+- Ranking Queries
+
+#### Files Added
+
+```text
+notebooks/sql_window_functions_analysis.ipynb
+notes/sql_window_functions_notes.md
+sql/sql_window_functions.sql
+```
+
+#### Outcome
+
+Practiced SQL window functions to rank data within groups using PARTITION BY. Compared ROW_NUMBER, RANK, and DENSE_RANK, and built analytical queries commonly used in business reporting and SQL interviews.
