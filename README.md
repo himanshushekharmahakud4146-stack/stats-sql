@@ -27,7 +27,7 @@ The goal of this month is to build strong statistical intuition, understand mach
 datasets/
 notebooks/
 notes/
-sq/
+sql/
 ```
 
 ---
@@ -1043,3 +1043,28 @@ sql/sql_window_functions.sql
 #### Outcome
 
 Practiced SQL window functions to rank data within groups using PARTITION BY. Compared ROW_NUMBER, RANK, and DENSE_RANK, and built analytical queries commonly used in business reporting and SQL interviews.
+
+## Day 24
+
+### SQL Time-Series Analysis with Window Functions
+
+#### Topics Covered
+
+- LAG()
+- LEAD()
+- SUM() OVER()
+- Running Totals
+- Month-over-Month Revenue Analysis
+- Window Functions
+
+#### Files Added
+
+```text
+notebooks/sql_time_series_analysis.ipynb
+notes/sql_lag_lead_notes.md
+sql/sql_lag_lead_queries.sql
+```
+
+#### Outcome
+
+Built SQL queries to analyze time-series data using LAG(), LEAD(), and running totals. Learned how to compare previous and next rows, calculate cumulative metrics, and apply window functions for business reporting and analytics.
