@@ -1068,3 +1068,48 @@ sql/sql_lag_lead_queries.sql
 #### Outcome
 
 Built SQL queries to analyze time-series data using LAG(), LEAD(), and running totals. Learned how to compare previous and next rows, calculate cumulative metrics, and apply window functions for business reporting and analytics.
+
+## Day 25
+
+### Advanced SQL: Common Table Expressions (CTEs)
+
+#### Topics Covered
+
+- WITH
+- Common Table Expressions (CTEs)
+- Multi-Step CTEs
+- Recursive CTEs
+- CASE
+- JOIN
+- RANK()
+- Business Query Decomposition
+
+#### Files Added
+
+```text
+notebooks/sql_cte_analysis.ipynb
+notes/sql_cte_notes.md
+sql/sql_cte_queries.sql
+```
+
+#### Practice Completed
+
+- Created simple CTEs.
+- Built a multi-step CTE chain.
+- Segmented customers using CASE.
+- Joined customer and order data.
+- Ranked customers based on total purchase amount.
+- Practiced a recursive CTE example.
+
+#### Business Applications
+
+- Customer Lifetime Value (LTV)
+- Customer Segmentation
+- Sales Analytics
+- Business Dashboards
+- Organization Hierarchies
+- ETL and Data Pipelines
+
+#### Outcome
+
+Learned how to organize complex SQL queries into reusable, readable steps using Common Table Expressions. Practiced recursive queries and customer segmentation to build maintainable analytical SQL workflows.
