@@ -1113,3 +1113,85 @@ sql/sql_cte_queries.sql
 #### Outcome
 
 Learned how to organize complex SQL queries into reusable, readable steps using Common Table Expressions. Practiced recursive queries and customer segmentation to build maintainable analytical SQL workflows.
+
+# Day 26
+
+## Customer Intelligence & Business Decision Engine
+
+### Objective
+
+Started planning a real-world SQL business analytics project that will evolve throughout the AI/ML roadmap. The project is designed to simulate the work of a Data Analyst by answering business questions using SQL and business reasoning.
+
+---
+
+### Project Planning
+
+- Defined the project scope and objectives.
+- Created a professional project folder structure.
+- Planned the PostgreSQL database architecture.
+- Defined business problems to solve.
+- Identified future project milestones.
+
+---
+
+### Repository Structure
+
+```text
+projects/
+└── customer_intelligence_engine/
+    ├── datasets/
+    ├── database/
+    ├── sql/
+    ├── notebooks/
+    ├── notes/
+    ├── reports/
+    ├── images/
+    └── README.md
+```
+
+---
+
+### Planned Business Questions
+
+- Top customers by revenue
+- Revenue by region
+- Product category performance
+- Best-selling products
+- Low-performing products
+- Average order value
+- Monthly sales trends
+- Inactive customers
+- Revenue contribution by category
+- Executive business recommendations
+
+---
+
+### Skills Practiced
+
+- Project Planning
+- Business Problem Definition
+- SQL Project Architecture
+- Repository Organization
+- Git & GitHub Best Practices
+
+---
+
+### Files Added
+
+```text
+projects/customer_intelligence_engine/
+├── README.md
+├── database/schema.sql
+├── database/sample_data.sql
+├── sql/business_analysis.sql
+├── notebooks/business_analysis.ipynb
+├── notes/project_notes.md
+├── reports/executive_summary.md
+```
+
+---
+
+### Outcome
+
+Completed the planning phase of a scalable SQL business analytics project. The repository is ready for database creation, data import, SQL analysis, and business insight generation in the upcoming days.
+
