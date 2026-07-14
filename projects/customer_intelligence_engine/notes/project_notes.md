@@ -140,3 +140,37 @@ Purpose:
 - Store product information.
 - Avoid duplicate product details.
 - Prepare for joins with the Orders table.
+
+# Notes
+
+## Goal
+
+Transform a flat CSV dataset into a normalized relational database.
+
+## Tables
+
+customers
+
+Stores one record for each customer.
+
+products
+
+Stores one record for each product.
+
+superstore
+
+Stores every sales transaction.
+
+## SQL Concepts Practiced
+
+- CREATE TABLE
+- PRIMARY KEY
+- INSERT INTO
+- SELECT DISTINCT
+- COUNT()
+- COUNT(DISTINCT)
+- Data validation
+
+## Learning Outcome
+
+Learned how transactional datasets are transformed into relational databases before performing business analysis.

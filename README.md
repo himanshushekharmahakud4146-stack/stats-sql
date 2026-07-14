@@ -1219,3 +1219,33 @@ Set up the project database and import the Superstore dataset into PostgreSQL.
 ## Status
 - Database setup completed successfully.
 - Ready to normalize data into relational tables.
+
+# Day 28
+
+## Objective
+
+Normalize the Superstore dataset into relational tables and prepare the database for business analysis.
+
+## Tasks Completed
+
+- Imported Superstore dataset into PostgreSQL
+- Verified successful import (9,994 rows)
+- Created normalized Customers table
+- Created normalized Products table
+- Validated primary keys
+- Practiced DISTINCT and INSERT INTO ... SELECT
+- Verified data integrity using COUNT() and COUNT(DISTINCT)
+
+## Skills Learned
+
+- Database Normalization
+- Primary Keys
+- Relational Database Design
+- INSERT INTO ... SELECT
+- DISTINCT
+- COUNT()
+- Data Validation
+
+## Status
+
+✅ Completed
