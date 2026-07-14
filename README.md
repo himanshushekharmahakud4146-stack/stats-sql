@@ -27,6 +27,7 @@ The goal of this month is to build strong statistical intuition, understand mach
 datasets/
 notebooks/
 notes/
+projects/
 sql/
 ```
 
