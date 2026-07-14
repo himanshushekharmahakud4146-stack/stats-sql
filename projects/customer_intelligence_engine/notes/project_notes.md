@@ -124,3 +124,19 @@ Executive Report
 ⬜ Business insights
 
 ⬜ Final report
+
+## Progress
+
+Created the Customers table.
+
+This table stores customer-related information independently from orders and products, following basic database normalization principles.
+
+## Products Table
+
+Created the Products table.
+
+Purpose:
+
+- Store product information.
+- Avoid duplicate product details.
+- Prepare for joins with the Orders table.

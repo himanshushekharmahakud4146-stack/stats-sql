@@ -1195,3 +1195,27 @@ projects/customer_intelligence_engine/
 
 Completed the planning phase of a scalable SQL business analytics project. The repository is ready for database creation, data import, SQL analysis, and business insight generation in the upcoming days.
 
+# Day 27
+
+## Objective
+Set up the project database and import the Superstore dataset into PostgreSQL.
+
+## Tasks Completed
+- Created PostgreSQL database (customer_intelligence_db)
+- Created project schema
+- Created customers, products, and superstore tables
+- Fixed CSV encoding issues
+- Imported 9,994 records into PostgreSQL
+- Verified data import using SQL queries
+- Validated row count and sample records
+- Updated project documentation
+
+## Key Learning
+- Database schema creation
+- CSV data import using PostgreSQL COPY command
+- Handling UTF-8 encoding issues
+- Data validation after import
+
+## Status
+- Database setup completed successfully.
+- Ready to normalize data into relational tables.
