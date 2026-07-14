@@ -174,3 +174,39 @@ Stores every sales transaction.
 ## Learning Outcome
 
 Learned how transactional datasets are transformed into relational databases before performing business analysis.
+
+# Notes
+
+## Objective
+
+Perform exploratory business analysis using SQL.
+
+## SQL Concepts Practiced
+
+- SUM()
+- AVG()
+- COUNT()
+- DISTINCT
+- GROUP BY
+- ORDER BY
+- LIMIT
+- Aggregate Functions
+
+## Business Questions Answered
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Customers
+- Total Products
+- Sales by Category
+- Profit by Category
+- Top Customers
+- Top Products
+- Regional Performance
+- Average Discount
+- Average Order Value
+
+## Learning Outcome
+
+Learned how SQL can answer business questions directly from transactional data.

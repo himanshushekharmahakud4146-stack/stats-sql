@@ -1249,3 +1249,31 @@ Normalize the Superstore dataset into relational tables and prepare the database
 ## Status
 
 ✅ Completed
+
+# Day 29
+
+## Objective
+
+Analyze business performance using SQL queries.
+
+## Tasks Completed
+
+- Built 15 business analysis queries
+- Calculated revenue and profit metrics
+- Identified top customers
+- Identified top products
+- Compared regional performance
+- Compared category performance
+- Practiced aggregate SQL functions
+
+## Skills Learned
+
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- LIMIT
+- Business Intelligence using SQL
+
+## Status
+
+✅ Completed
